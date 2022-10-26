@@ -1,3 +1,17 @@
+:root {
+    --white: #FFFFFF;
+    --backround: #F4F6F6;
+    --dark-backround: #EAEDED;
+    --font-light-color: #839192;
+    --card-2: #0D2E33;
+    --card-3: #9A7B76;
+    --card-4: #9C5F2D;
+    --card-5: #3E3781;
+    --card-6: #C89E48;
+    --card-7: #844E9A;
+    --card-8: #E958AE;
+}
+
 body {
     font-family: 'Fredoka One', cursive;
     font-family: 'Montserrat', sans-serif;
