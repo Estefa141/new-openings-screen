@@ -37,6 +37,7 @@ body {
 .ev-container {
     display: flex;
     align-items: center;
+    height: 5vh;
 }
 
 .user-name {
@@ -61,4 +62,30 @@ body {
     font-size: small;
     margin: 0;
     color: var(--font-light-color);
+}
+
+.sides {
+    display: flex;
+}
+
+.big-container1 {
+    width: 75%;
+    margin: 30px 50px 0 50px;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    margin: 0;
+    font-size: x-large;
+}
+
+.text1 {
+    margin: 0;
+    color: var(--font-light-color);
+    font-size: small;
+    font-weight: 500;
 }
