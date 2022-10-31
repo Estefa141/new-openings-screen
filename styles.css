@@ -131,13 +131,28 @@ body {
 }
 
 .first-card {
-    border: solid 1px var(--dark-backround);
+    border-style: dotted;
+    border-color: var(--dark-backround);
+    border-width: 1.5px;
     border-radius: 10px;
 }
 
 .card {
     border: solid 1px var(--dark-backround);
     border-radius: 10px;
+}
+
+.plus-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    border-style: dotted;
+    border-radius: 8px;
+    border-color: var(--dark-backround);
+    background-color: var(--white);
 }
 
 .big-container2 {
