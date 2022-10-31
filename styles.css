@@ -131,6 +131,9 @@ body {
 }
 
 .first-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
     border-style: dotted;
     border-color: var(--dark-backround);
     border-width: 1.5px;
@@ -153,6 +156,62 @@ body {
     border-radius: 8px;
     border-color: var(--dark-backround);
     background-color: var(--white);
+}
+
+.first-part-container p {
+    margin-left: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.define-role {
+    color: var(--font-light-color);
+}
+
+.create-new-button {}
+
+.color {}
+
+.position {
+    margin-left: 15px;
+    font-size: small;
+    font-weight: bold;
+}
+
+.description {
+    margin-left: 15px;
+    font-size: small;
+    font-weight: bold;
+    color: var(--font-light-color);
+}
+
+.icons-container {
+    display: flex;
+    margin: 20px 0 15px 15px
+}
+
+.card-icon {
+    display: flex;
+    align-items: center;
+    border: solid var(--border);
+    border-radius: 8px;
+    border-width: 1px;
+    padding: 3px 5px;
+    margin-right: 7px;
+}
+
+.card-icon img {
+    object-fit: cover;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.card-icon p {
+    margin: 0;
+    font-size: small;
+    color: var(--font-light-color);
+    font-weight: bold;
 }
 
 .big-container2 {
