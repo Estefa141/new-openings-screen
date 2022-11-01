@@ -141,6 +141,9 @@ body {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: solid 1px var(--dark-backround);
     border-radius: 10px;
 }
@@ -149,8 +152,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 30px;
-    height: 30px;
+    width: 2.3vw;
+    height: 8vh;
+    max-width: 50px;
+    max-height: 50px;
     margin: 15px;
     border-style: dotted;
     border-radius: 8px;
@@ -182,7 +187,40 @@ body {
     margin: 15px;
 }
 
-.color {}
+.color {
+    height: 22vh;
+    max-height: 100px;
+    margin-bottom: 8px;
+    border-radius: 10px 10px 0 0;
+}
+
+.color-2 {
+    background-color: var(--card-2);
+}
+
+.color-3 {
+    background-color: var(--card-3);
+}
+
+.color-4 {
+    background-color: var(--card-4);
+}
+
+.color-5 {
+    background-color: var(--card-5);
+}
+
+.color-6 {
+    background-color: var(--card-6);
+}
+
+.color-7 {
+    background-color: var(--card-7);
+}
+
+.color-8 {
+    background-color: var(--card-8);
+}
 
 .position {
     margin-left: 15px;
@@ -191,7 +229,7 @@ body {
 }
 
 .description {
-    margin-left: 15px;
+    margin: 0 0 0 15px;
     font-size: small;
     font-weight: bold;
     color: var(--font-light-color);
