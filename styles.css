@@ -14,7 +14,6 @@
 }
 
 body {
-    font-family: 'Fredoka One', cursive;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
@@ -133,7 +132,7 @@ body {
 .first-card {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     border-style: dotted;
     border-color: var(--dark-backround);
     border-width: 1.5px;
@@ -153,7 +152,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 2.3vw;
-    height: 8vh;
+    height: 5vh;
     max-width: 50px;
     max-height: 50px;
     margin: 15px;
@@ -178,7 +177,7 @@ body {
     border-radius: 8px;
     border-width: 1px;
     width: 8vw;
-    height: 8vh;
+    height: 5vh;
     max-height: 50px;
     max-width: 200px;
     background-color: var(--white);
@@ -266,4 +265,65 @@ body {
 
 .big-container2 {
     width: 30vw;
+    background-color: var(--background);
+    border-radius: 10px;
+    box-shadow: 1px 2px var(--dark-backround);
+    padding: 15px;
+}
+
+.big-icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.squared-icon {
+    width: 10vw;
+    height: 9vh;
+    max-width: 80px;
+    max-height: 80px;
+}
+
+.squared-icon img {
+    object-fit: cover;
+    width: 9vw;
+    height: 9vh;
+    max-width: 78px;
+    max-height: 78px;
+}
+
+.compare-pencil {
+    display: flex;
+    align-items: center;
+    height: 7vh;
+}
+
+.up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background);
+    font-family: 'Montserrat';
+    font-size: small;
+    font-weight: bold;
+    border-radius: 7px;
+    border: solid var(--dark-backround);
+    border-width: 1px;
+}
+
+.compare {
+    width: 7vw;
+    height: 5vh;
+    margin-right: 5px;
+}
+
+.pencil {
+    width: 2.5vw;
+    height: 5vh;
+}
+
+.pencil img {
+    object-fit: cover;
+    width: 1vw;
+    height: 2vh;
+
 }
