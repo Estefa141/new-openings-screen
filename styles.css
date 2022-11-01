@@ -168,7 +168,19 @@ body {
     color: var(--font-light-color);
 }
 
-.create-new-button {}
+.create-new-button {
+    border: solid var(--dark-backround);
+    border-radius: 8px;
+    border-width: 1px;
+    width: 8vw;
+    height: 8vh;
+    max-height: 50px;
+    max-width: 200px;
+    background-color: var(--white);
+    font-size: small;
+    font-weight: bold;
+    margin: 15px;
+}
 
 .color {}
 
