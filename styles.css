@@ -69,7 +69,7 @@ body {
 
 .big-container1 {
     width: 60vw;
-    margin: 30px 50px 0 50px;
+    margin: 30px 40px 0 50px;
 }
 
 .first-section {
@@ -259,12 +259,15 @@ body {
 .card-icon p {
     margin: 0;
     font-size: small;
-    color: var(--font-light-color);
     font-weight: bold;
 }
 
+.icon1 p {
+    color: var(--font-light-color);
+}
+
 .big-container2 {
-    width: 30vw;
+    width: 25vw;
     background-color: var(--background);
     border-radius: 10px;
     box-shadow: 1px 2px var(--dark-backround);
@@ -326,4 +329,34 @@ body {
     width: 1vw;
     height: 2vh;
 
+}
+
+.lead-designer-big {
+    font-size: small;
+    font-weight: bold;
+}
+
+.ld {
+    color: var(--font-light-color);
+}
+
+.numbers {
+    display: flex;
+    padding-bottom: 20px;
+    border-bottom: dotted var(--dark-backround);
+}
+
+.before-input {
+    display: flex;
+    justify-content: space-between;
+}
+
+.before-input p {
+    font-size: small;
+    font-weight: bold;
+}
+
+.view-container {
+    display: flex;
+    justify-content: space-between;
 }
