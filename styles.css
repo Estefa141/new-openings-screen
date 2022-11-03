@@ -477,6 +477,26 @@ body {
     margin: 0;
 }
 
+.dash-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 5px 0;
+}
+
+.dash {
+    height: 2px;
+    width: 65px;
+}
+
+.black {
+    background-color: black;
+}
+
+.soft {
+    background-color: var(--font-light-color);
+}
+
 .first {}
 
 .second {}
