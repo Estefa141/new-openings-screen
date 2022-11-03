@@ -1,6 +1,6 @@
 :root {
     --white: #FFFFFF;
-    --background: #F3F4F5;
+    --background: #F4F4F4;
     --dark-backround: #EAEDED;
     --font-light-color: #839192;
     --border: #E9E9E9;
@@ -14,8 +14,9 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     margin: 0;
+    font-weight: bold;
 }
 
 .main-container {
@@ -70,6 +71,7 @@ body {
 .big-container1 {
     width: 60vw;
     margin: 30px 40px 0 50px;
+    font-size: small;
 }
 
 .first-section {
@@ -85,7 +87,6 @@ body {
 .text1 {
     margin: 0;
     color: var(--font-light-color);
-    font-size: small;
     font-weight: 500;
 }
 
@@ -114,8 +115,6 @@ body {
 }
 
 .switch p {
-    font-size: small;
-    font-weight: bold;
     margin: 0;
 }
 
@@ -181,6 +180,7 @@ body {
     max-height: 50px;
     max-width: 200px;
     background-color: var(--white);
+    font-family: 'Montserrat';
     font-size: small;
     font-weight: bold;
     margin: 15px;
@@ -223,14 +223,10 @@ body {
 
 .position {
     margin-left: 15px;
-    font-size: small;
-    font-weight: bold;
 }
 
 .description {
     margin: 0 0 0 15px;
-    font-size: small;
-    font-weight: bold;
     color: var(--font-light-color);
 }
 
@@ -259,7 +255,6 @@ body {
 .card-icon p {
     margin: 0;
     font-size: small;
-    font-weight: bold;
 }
 
 .icon1 p {
@@ -272,6 +267,8 @@ body {
     border-radius: 10px;
     box-shadow: 1px 2px var(--dark-backround);
     padding: 15px;
+    font-size: small;
+    font-weight: bold;
 }
 
 .big-icons {
@@ -331,11 +328,6 @@ body {
 
 }
 
-.lead-designer-big {
-    font-size: small;
-    font-weight: bold;
-}
-
 .ld {
     color: var(--font-light-color);
 }
@@ -349,11 +341,6 @@ body {
 .before-input {
     display: flex;
     justify-content: space-between;
-}
-
-.before-input p {
-    font-size: small;
-    font-weight: bold;
 }
 
 .view-container {
@@ -385,7 +372,7 @@ body {
 
 .input {
     height: 30px;
-    width: 93%;
+    width: 100%;
     background-image: url(file:///C:/RETOS/openings/icons/search.png);
     background-repeat: no-repeat;
     background-position: left top;
@@ -400,4 +387,35 @@ body {
     font-family: 'Montserrat';
     font-weight: bold;
     font-size: small;
+}
+
+.button-container {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.add-another-candidate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background-color: var(--background);
+    border-radius: 10px;
+    border: var(--dark-backround) 2px;
+    border-style: dotted;
+}
+
+.add-another-candidate img {
+    height: 12px;
+    width: 12px;
+}
+
+.add-another-candidate p {
+    color: var(--font-light-color);
+    font-family: 'Montserrat';
+    font-size: small;
+    font-weight: bold;
+    margin-left: 15px;
 }
