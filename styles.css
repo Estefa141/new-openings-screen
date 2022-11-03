@@ -359,4 +359,45 @@ body {
 .view-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.view {
+    color: var(--font-light-color);
+}
+
+.all {
+    margin-left: 10px;
+}
+
+.view-container img {
+    object-fit: cover;
+    width: 10px;
+    height: 7px;
+    margin: 0 5px 0 10px;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    margin: 10px auto 20px auto;
+}
+
+.input {
+    height: 30px;
+    width: 93%;
+    background-image: url(file:///C:/RETOS/openings/icons/search.png);
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 15px;
+    padding-left: 25px;
+    color: var(--font-light-color);
+    background-color: var(--dark-backround);
+    border-radius: 10px;
+    border: transparent;
+    background-position-y: center;
+    background-position-x: 2%;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: small;
 }
